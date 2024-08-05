@@ -1,0 +1,45 @@
+.input {
+    padding: 10px
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .input-container {
+    flex-basis: calc(100% / 3);
+    /* Divide el ancho en 3 columnas iguales */
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  }
+  
+  .input-container2 {
+    flex-basis: calc(100% / 2);
+    /* Divide el ancho en 3 columnas iguales */
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  }
+  
+  .input-container3 {
+    flex-basis: calc(100%);
+    /* Divide el ancho en 3 columnas iguales */
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  }
+  
+  .elementosDialog {
+    width: 100%;
+  }
+  
+  
+  .flexx {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }

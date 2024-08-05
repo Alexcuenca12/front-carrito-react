@@ -1,0 +1,58 @@
+#imagCatalogue {
+  width: auto;
+  height: 150px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.cadr {
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#cardCatalogue {
+  margin-left: 20px;
+  margin-right: 20px;
+  border-style: outset;
+  border-color: rgb(106, 110, 110);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  height: 410px;
+  width: 300px;
+}
+
+#pCatalogo {
+  margin-top: -35px;
+  text-shadow: rgb(187, 183, 183) 0.3em 0.2em 0.2em;
+  color: black;
+  font-size: 23px;
+}
+
+#btnCatalogue {
+  font-family: 'Merriweather', serif;
+  background-color: black;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+}
+
+#h2Catalogue {
+  text-align: center;
+  font-style: italic;
+  font-family: 'Merriweather', serif;
+  font-size: 40px;
+  text-shadow: rgb(187, 183, 183) 0.3em 0.2em 0.2em;
+  color: black;
+}
+
+#pCatalogue {
+  text-align: left;
+  text-shadow: rgb(187, 183, 183) 0.3em 0.2em 0.2em;
+  color: black;
+  font-size: 18px;
+}
